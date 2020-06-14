@@ -32,6 +32,7 @@
  - Using MongoDB database to store data.
  - Using mongoose to communicate with MongoDB
  - Using async-storage to store data from the current user session in the mobile app
+ - Using GitHub API to fetch data
 
 ## Credits 👏
   - <a target="_blank" href="https://rocketseat.com.br">Rocketseat</a>
