@@ -25,6 +25,7 @@
 ## Knowledges 🚀
  - Building the backend using node.js
  - Creating routes to fetch data from the backend
+ - Using websocket to handle the 'Match' feature between the backend and frontend (web and mobile)
  - Building front-end using ReactJS
  - Creating routes to handle page redirection
  - Handling with data fetched from the backend
