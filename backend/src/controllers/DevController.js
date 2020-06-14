@@ -7,17 +7,16 @@ module.exports = {
 
         const userExists = await Dev.findOne({ user });
 
-        console.log(userExists);
         if (userExists) {
             return res.json(userExists);
         }
-
+        console.log(user);
         const response = await axios.get(`https://api.github.com/users/${user}`);
-
+        console.log(response);
         const { name, bio, avatar_url: avatar } = response.data;
 
         const dev = await Dev.create({
-            name,
+            name: (name == null && (user)),
             user,
             bio,
             avatar
