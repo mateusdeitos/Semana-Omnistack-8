@@ -1,7 +1,7 @@
 <h1 align="center">
   Tindev Application
  <br/>
-  <img width="250" src="tindev/src/assets/logo.png"/>
+  <img width="250" src="tindev/src/assets/logo@3x.png"/>
 </h1>
 
  - <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/NodeJS-Backend-red.svg?style=flat-square"/></span>
